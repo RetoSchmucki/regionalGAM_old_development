@@ -1,6 +1,7 @@
+
+#################################################
 # Author: Reto Schmucki 
 # email: reto.schmucki[at]mail.mcgill.ca
-#################################################
 # compute year, month and day full dataset
 #################################################
 
@@ -63,6 +64,8 @@ year_day_func = function(sp_data) {
 }
 
 #################################################
+# Author: Harrower, Colin A. 
+# email: corr[at]ceh.ac.uk
 # compute area under the curve trapezoide method
 #################################################
 
@@ -106,6 +109,8 @@ trap_area = function(x, y = NULL) {
 }
 
 ######################################
+# Author: Harrower, Colin A. 
+# email: corr[at]ceh.ac.uk
 # compute Abundance index
 ######################################
 
@@ -134,6 +139,8 @@ trap_index = function(sp_data, data_col = "IMP", time_col = "DAYNO", by_col = c(
 }
 
 ######################################
+# Author: Reto Schmucki 
+# email: reto.schmucki[at]mail.mcgill.ca
 # simulate flight curve and counts
 ######################################
 
@@ -299,6 +306,8 @@ flight_count_sim <- function(fully_random_subsample = FALSE, nyear = 10, nsite =
 
 
 ##################################################################
+# Author: Reto Schmucki 
+# email: reto.schmucki[at]mail.mcgill.ca
 # function to generate fake count datasets for multiple iteration
 ##################################################################
 
@@ -316,6 +325,8 @@ data_gen <- function(miter = 2, nsite = 1, long_trend = -0.05, nyear = 10, sd_pe
 }
 
 ######################################################################
+# Author: Reto Schmucki 
+# email: reto.schmucki[at]mail.mcgill.ca
 # function to generate flight curve with 200 sites for multiple years
 ######################################################################
 
@@ -487,6 +498,8 @@ flight_curve <- function(year_day_sample_cummul_26w, y = 1) {
 }
 
 ################################################################
+# Author: Reto Schmucki 
+# email: reto.schmucki[at]mail.mcgill.ca
 # function to generate flight curve with 200 sites for one year
 ################################################################
 
@@ -637,6 +650,8 @@ flight_curve1y <- function(dataset_y) {
 
 
 ################################################
+# Author: Reto Schmucki 
+# email: reto.schmucki[at]mail.mcgill.ca
 # compute degradation pattern for count dataset
 ################################################
 
@@ -786,6 +801,8 @@ degradation_prop <- function(year_day_sample_cummul_26w, pheno = flight_pheno, p
 }
 
 ##################################################
+# Author: Reto Schmucki 
+# email: reto.schmucki[at]mail.mcgill.ca
 # compute Abundance indices for degraded datasets
 ##################################################
 
