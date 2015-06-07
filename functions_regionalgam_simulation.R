@@ -1,3 +1,5 @@
+# Author: Reto Schmucki 
+# email: reto.schmucki[at]mail.mcgill.ca
 #################################################
 # compute year, month and day full dataset
 #################################################
